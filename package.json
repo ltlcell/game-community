@@ -1,21 +1,30 @@
 {
-  "name": "Game Community",
+  "name": "game-community",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ltl Cell team",
-  "license": "ISC",
+  "description": "game community project",
+  "main": "gulpfile.js",
   "dependencies": {
     "browserify": "^14.4.0",
     "express": "^4.15.3",
-    "guid": "0.0.12",
+    "guid": "^0.0.12",
     "gulp": "^3.9.1",
+    "reactify": "^1.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltlcell/game-community.git"
+  },
+  "author": "LtlCell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltlcell/game-community/issues"
+  },
+  "homepage": "https://github.com/ltlcell/game-community#readme"
 }
